@@ -90,13 +90,16 @@ p {
     color: rgb(82, 80, 80);
 }
 
+.back {
+    position: relative;
+}
+
 .button_header a {
     background-color: #f2cd5d;
     text-decoration: none;
     color: black;
     border: 2px solid black;
     padding: 6px 19px;
-    font-size: 14px;
     font-weight: bold;
 }
 
@@ -236,4 +239,72 @@ p {
     .bestmeal img {
         display: none;
     }
+
+    .last {
+        margin: 20px;
+    }
+}
+
+
+/* Section Menu */
+
+.menu {
+    margin-bottom: 150px;
+}
+
+.titre h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-family: 'open sans';
+}
+
+.titre p {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+}
+
+.one {
+    width: 420px;
+    height: 220px;
+    box-shadow: 0 0 3em gray;
+}
+
+.two {
+    width: 420px;
+    height: 220px;
+    box-shadow: 0 0 3em gray;
+}
+
+.three {
+    width: 420px;
+    height: 220px;
+    box-shadow: 0 0 3em gray;
+}
+
+
+/* Section Store */
+
+.store h2 {
+    font-family: 'open sans';
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.store p {
+    text-align: center;
+    padding-bottom: 55px;
 }
