@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+}
+
+/* Header */
+
+.header {
+    margin: 15px 90px 15px 90px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: #f2cd5d;
+}
+
+.navbar img {
+    width: 58px;
+    height: auto;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navbar_mobile a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_mobile a:hover {
+    color: #f2cd5d;
+}
+
+.logo {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.header_section h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 90px;
+    letter-spacing: 5px;
+    margin-top: 60px;
+}
+
+.header_section {
+    display: flex;
+    gap: 25px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 50%;
+}
+
+.left p {
+    padding: 0 0 14px 0;
+    margin-top: -30px;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(82, 80, 80);
+}
+
+.button_header a {
+    background-color: #f2cd5d;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 19px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 50%;
+}
+
+@media screen and (min-width: 1000px) {
+    .navbar_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+        gap: 0;
+    }
+
+    .left h1 {
+        font-size: 38px;
+        margin-bottom: 55px;
+    }
+
+    .left p {
+        margin-bottom: 35px;
+    }
+
+    .right {
+        display: none;
+    }
+}
