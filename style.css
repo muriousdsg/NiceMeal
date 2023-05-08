@@ -295,7 +295,9 @@ p {
 }
 
 @media screen and (max-width: 1300px) {
-    
+    .menu {
+        display: none;
+    }
 }
 
 
@@ -311,4 +313,10 @@ p {
 .store p {
     text-align: center;
     padding-bottom: 55px;
+}
+
+@media screen and (max-width: 900px) {
+    .store p {
+        padding: 0 15px 0 15px;
+    }
 }
